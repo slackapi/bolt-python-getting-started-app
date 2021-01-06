@@ -59,6 +59,7 @@ This repository does not have unit tests.
 
 1.  Create the commit for the release:
     *  Update any dependency versions 
+    *  Update `version.py` with the new version number. For example `2.2.0`.
     *  Commit with a message including the new version number. For example `v2.2.0`.
     *  Tag the commit with the version number. For example `git tag 2.2.0`.
 
