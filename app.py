@@ -7,6 +7,7 @@ app = App(
     signing_secret=os.environ.get("SLACK_SIGNING_SECRET"),
 )
 
+
 # Listens to incoming messages that contain "hello"
 @app.message("hello")
 def message_hello(message, say):
