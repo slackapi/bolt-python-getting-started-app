@@ -4,3 +4,6 @@ env*/
 
 # macOS
 .DS_Store
+
+# Editors
+.vscode/
