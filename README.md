@@ -42,6 +42,10 @@ ngrok http 3000
 python3 app.py
 ```
 
+## More examples
+
+Looking for more examples of Bolt for Python? Browse to [bolt-python/examples/][5] for a long list of usage, server, and deployment code samples!
+
 ## Contributing
 
 ### Issues and questions
@@ -58,3 +62,4 @@ See you there and thanks for helping to improve Bolt for everyone!
 [2]: https://slack.dev/bolt-python/
 [3]: https://slack.dev/bolt-python/tutorial/getting-started#setting-up-events
 [4]: https://github.com/slackapi/bolt-python/issues/new/choose
+[5]: https://github.com/slackapi/bolt-python/tree/main/examples
