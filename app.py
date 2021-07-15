@@ -3,9 +3,7 @@ from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
 # Initializes your app with your bot token and signing secret
-app = App(
-    token=os.environ.get("SLACK_BOT_TOKEN"),
-)
+app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
 
 # Listens to incoming messages that contain "hello"
