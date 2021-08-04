@@ -6,7 +6,7 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 # For the companion getting started setup guide, 
 # see: https://slack.dev/bolt-python/tutorial/getting-started 
 
-# Initializes your app with your bot token and signing secret
+# Initializes your app with your bot token
 app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
 
