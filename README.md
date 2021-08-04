@@ -11,9 +11,9 @@ responding to events and interactive buttons.
 ### 1. Setup environment variables
 
 ```zsh
-# Replace with your signing secret and token
+# Replace with your tokens
 export SLACK_BOT_TOKEN=<your-bot-token>
-export SLACK_SIGNING_SECRET=<your-signing-secret>
+export SLACK_APP_TOKEN=<your-app-level-token>
 ```
 
 ### 2. Setup your local project
@@ -34,11 +34,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Start servers
-
-[Setup ngrok][3] to create a local requests URL for development.
-
 ```zsh
-ngrok http 3000
 python3 app.py
 ```
 
