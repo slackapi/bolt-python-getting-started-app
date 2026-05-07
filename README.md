@@ -30,7 +30,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Install the dependencies
-pip install -r requirements.txt
+pip install .
 ```
 
 ### 3. Start servers
