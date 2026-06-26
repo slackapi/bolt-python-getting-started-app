@@ -1,10 +1,10 @@
 # Getting Started ⚡️ Bolt for Python
-> Slack app example from 📚 [Getting started with Bolt for Python][1]
+
+> Slack app example from 📚 [Getting started with Bolt for Python](https://docs.slack.dev/tools/bolt-python/getting-started)
 
 ## Overview
 
-This is a Slack app built with the [Bolt for Python framework][2] that showcases
-responding to events and interactive buttons.
+This is a Slack app built with the [Bolt for Python framework](https://docs.slack.dev/tools/bolt-python/) that showcases responding to events and interactive buttons.
 
 ## Running locally
 
@@ -20,7 +20,7 @@ export SLACK_APP_TOKEN=<your-app-level-token>
 
 ```zsh
 # Clone this project onto your machine
-git clone https://github.com/slackapi/bolt-python-getting-started-app.git
+git clone https://github.com/slack-samples/bolt-python-getting-started-app.git
 
 # Change into this project
 cd bolt-python-getting-started-app/
@@ -34,13 +34,14 @@ pip install -r requirements.txt
 ```
 
 ### 3. Start servers
+
 ```zsh
 python3 app.py
 ```
 
 ## More examples
 
-Looking for more examples of Bolt for Python? Browse to [bolt-python/examples/][5] for a long list of usage, server, and deployment code samples!
+Looking for more examples of Bolt for Python? Browse to [bolt-python/examples/](https://github.com/slackapi/bolt-python/tree/main/examples) for a long list of usage, server, and deployment code samples!
 
 ## Contributing
 
@@ -48,14 +49,8 @@ Looking for more examples of Bolt for Python? Browse to [bolt-python/examples/][
 
 Found a bug or have a question about this project? We'd love to hear from you!
 
-1. Browse to [slackapi/bolt-python/issues][4]
+1. Browse to [slackapi/bolt-python/issues](https://github.com/slackapi/bolt-python/issues/new/choose)
 1. Create a new issue
 1. Mention that you're using this example app
 
 See you there and thanks for helping to improve Bolt for everyone!
-
-[1]: https://slack.dev/bolt-python/tutorial/getting-started
-[2]: https://slack.dev/bolt-python/
-[3]: https://slack.dev/bolt-python/tutorial/getting-started#setting-up-events
-[4]: https://github.com/slackapi/bolt-python/issues/new/choose
-[5]: https://github.com/slackapi/bolt-python/tree/main/examples
