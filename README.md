@@ -8,7 +8,36 @@ This is a Slack app built with the [Bolt for Python framework](https://docs.slac
 
 ## Running locally
 
-### 1. Setup environment variables
+### Using Slack CLI
+
+Install the latest version of the Slack CLI for your operating system:
+
+- [Slack CLI for macOS & Linux](https://docs.slack.dev/tools/slack-cli/guides/installing-the-slack-cli-for-mac-and-linux/)
+- [Slack CLI for Windows](https://docs.slack.dev/tools/slack-cli/guides/installing-the-slack-cli-for-windows/)
+
+You'll also need to log in if this is your first time using the Slack CLI.
+
+```sh
+slack login
+```
+
+#### Initializing the project
+
+```sh
+slack create bolt-python-getting-started --template slack-samples/bolt-python-getting-started-app
+cd bolt-python-getting-started
+```
+
+#### Running the app
+
+```sh
+slack run
+```
+
+<details>
+<summary><h3>Using Terminal</h3></summary>
+
+#### 1. Setup environment variables
 
 ```zsh
 # Replace with your tokens
@@ -16,7 +45,7 @@ export SLACK_BOT_TOKEN=<your-bot-token>
 export SLACK_APP_TOKEN=<your-app-level-token>
 ```
 
-### 2. Setup your local project
+#### 2. Setup your local project
 
 ```zsh
 # Clone this project onto your machine
@@ -33,11 +62,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Start servers
+#### 3. Start servers
 
 ```zsh
 python3 app.py
 ```
+
+</details>
 
 ## More examples
 
